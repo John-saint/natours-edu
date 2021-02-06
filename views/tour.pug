@@ -49,7 +49,7 @@ block content
             
         .overview-box__group
           h2.heading-secondary.ma-bt-lg Your tour guides
-          //- in, and then the array that we want to loop through inthis case tour.guides
+          //- in, and then the array that we want to loop through in this case tour.guides
           each tourGuide in tour.guides
             .overview-box__detail
               img.overview-box__img(src=`/img/users/${tourGuide.photo}`, alt=`${tourGuide.name}`)

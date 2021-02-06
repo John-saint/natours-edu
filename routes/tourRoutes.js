@@ -22,8 +22,6 @@ const reviewRouter = require('./reviewRoutes');
 
 const router = express.Router();
 
-// POST /tour/234fad4/reviews
-
 router.use('/:tourId/reviews', reviewRouter);
 /* (158) cause router is just a middleware, so we can use the 
 'use' method on it, and 
