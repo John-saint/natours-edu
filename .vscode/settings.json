@@ -1,0 +1,21 @@
+{
+  "prettier.proseWrap": "always",
+  "prettier.packageManager": "yarn",
+  "prettier.useTabs": true,
+  "javascript.format.semicolons": "insert",
+  "prettier.useEditorConfig": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "block",
+  "terminal.integrated.cursorBlinking": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordWrap": "on",
+  "editor.minimap.maxColumn": 70,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "eslint.format.enable": true,
+  "prettier.quoteProps": "preserve",
+  "prettier.withNodeModules": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.singleQuote": true
+}
