@@ -7,6 +7,9 @@ const xss = require('xss-clean');
 const hpp = require('hpp');
 const cookieParser = require('cookie-parser');
 
+// compression package for response
+const compression = require('compression');
+
 const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controller/errorController');
 const tourRouter = require('./routes/tourRoutes');
@@ -78,6 +81,9 @@ app.use(
     ],
   })
 );
+
+// this is only going to be working on the text
+app.use(compression());
 
 // app.use((req, res, next) => {
 //   console.log("Hello from the middleware");
